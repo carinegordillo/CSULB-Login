@@ -75,20 +75,28 @@ body::after {
 
 .sign-in-next-btn {
     width: 100px;
-    height: 32px;
     outline: none;
     border: none;
     color: #fff;
     font-size: 15px;
     text-align: center;
     float: right;
-    margin-right: 8px;
-    margin-top: 8px;
+    margin-right: 20px;
+    margin-top: 13px;
     
 
 }
 .sign-in-next-btn button{
     background-color: rgb(35, 90, 191);
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    width: 105px;
+    height: 32px;
+    
+    
+
 }
 
 
@@ -144,4 +152,5 @@ input[type=text] {
     
 
 }
+
 
