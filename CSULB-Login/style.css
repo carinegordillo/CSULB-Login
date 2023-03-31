@@ -44,17 +44,33 @@ body::after {
 .email-screen{
     background-color: #fff;
     width: 440px;
-    height: 380px;
+    height: 260px;
     box-sizing: border-box;
     padding: 35px;
+    display: block;
 
 }
-.sign-in-help{
-    background-color: #f1eded;
+
+.password-sign-in-form{
+    display: none;
+}
+
+.password-screen{
+    background-color: #fff;
     width: 440px;
+    height: 320px;
     box-sizing: border-box;
-    padding: 32px;
+    padding: 38px;
+}
+.sign-in-help{
+    background-color: #edebeb;
+    width: 440px;
+    height: 120px;
+    box-sizing: border-box;
     padding-left: 37px;
+    padding-bottom: 37px;
+    padding-top: 25px;
+    padding-right: 30px;
     line-height: 20px;
     font-size: 14.5px;
     font-weight: lighter;
@@ -62,7 +78,7 @@ body::after {
 
 .sign-in-options{
     width: 440px;
-    height: 80px;
+    height: 50px;
     box-sizing: border-box;
     margin-top: 30px;
     background-color: #f1eded;
@@ -73,7 +89,7 @@ body::after {
 
 }
 
-.sign-in-next-btn {
+.sign-in-next-btn,.sign-in-btn-submit {
     width: 100px;
     outline: none;
     border: none;
@@ -86,7 +102,7 @@ body::after {
     
 
 }
-.sign-in-next-btn button{
+.sign-in-next-btn button, .sign-in-btn-submit{
     background-color: rgb(35, 90, 191);
     outline: none;
     border: none;
@@ -99,8 +115,20 @@ body::after {
 
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
 
-
+.arrow-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
 
 #csulbLogo{
     width: 45%;
@@ -152,5 +180,6 @@ input[type=text] {
     
 
 }
+
 
 
