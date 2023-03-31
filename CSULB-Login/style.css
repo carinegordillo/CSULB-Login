@@ -81,7 +81,7 @@ body::after {
     height: 50px;
     box-sizing: border-box;
     margin-top: 30px;
-    background-color: #f1eded;
+    background-color: #edebeb;
     display: flex;
     align-items: center;
     padding-left: 35px;
@@ -180,6 +180,7 @@ input[type=text] {
     
 
 }
+
 
 
 
